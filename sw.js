@@ -7,7 +7,6 @@ self.addEventListener('install', e => {
                 `/`,
                 `/index.html`,
                 '/scripts/main.js',
-                '/scripts/konami.js',
                 `/scripts/pwacompat.min.js`
             ]).then(() => self.skipWaiting());
         })
